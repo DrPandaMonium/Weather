@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather App</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="card">
+            <div class="search">
+                <input type="text" placeholder="enter city name" spellcheck="false"/>
+                <button><img src="images/search.png"></button>
+            </div>
+            <div class="error">
+                <p>Invalid City Name</p>
+            </div>
+            <div class="weather">
+
+                <img src="images/rain.png" class="weather-icon">
+                <h1 class="temp">86°F</h1>
+                <h2 class="city">Nashville</h2>
+                <!-- <div class="min_max">
+                    <div class='col'>
+                        <div>
+                            <p class="low">30°F</p>
+                            <p>Low</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div>
+                            <p class="high">60°F</p>
+                            <p>High</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="case">
+                        <div class="feel_box">
+                            <p class="feels">50°F</p>
+                            <p>Feels Like</p>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="details">
+                    <div class="col">
+                        <img src="images/humidity.png">
+                        <div>
+                            <p class="humidity">40%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="images/wind.png">
+                        <div>
+                            <p class="wind">4.61km/h</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</HTML>
